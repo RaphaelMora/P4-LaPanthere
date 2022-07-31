@@ -639,9 +639,6 @@ a {
     color: #575757!important;
 }
 
-.container {
-    max-width: 1000px;
-}
 
 .hero-bloc-text {
     font-size: 38px;
@@ -1015,6 +1012,7 @@ h4 {
         text-align: center;
     }
 }
+
 .icon-md, p{
     font-size: 1.7rem;
     color: #000000!important;
@@ -1038,3 +1036,49 @@ h4 {
     color: #000000;
     font-weight: bold;
 }
+
+#form-contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+     justify-content:center;
+     font-size: 1.6rem;
+}
+
+.col-form{
+    width: 100%;
+    margin: auto;
+}
+
+.label-form, .col-sm-6-contact{
+    width: 100%;
+    font-size: 1.6rem;
+}
+
+.col-sm-6-contact{
+    font-style: italic;
+}
+
+.btn-form{
+    width: 60%;
+    margin: auto;
+}
+
+#container-contact{
+    display: flex;
+    width: auto;
+}
+
+#bloc-7, .title-contact{
+padding-left: 25px;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+h2{
+margin-left: 20px;}
+
+
+
